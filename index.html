@@ -10,10 +10,17 @@
   <title>Quiz board</title>
 </head>
 <body>
-  <h1 class="head">QUIZ BOARD</h1>
+  <div class="header">
+    <h1 class="head">QUIZ BOARD</h1>
+    <div class="results">
+      <h2>You scored: Not yet attempted</h2>
+    </div>
+  </div>
+
  <div class="questions">
+
    <div class="question_1">
-    <p>Which HTML element has the correct structure?</p>
+    <h3>Which HTML element has the correct structure?</h3>
     <form id="one">
       <input type="radio" id="no_closing_tag" name="correct_structure" value="A">
       <label for="a">&lt;h1&gt;The Headline </label><br>
@@ -26,8 +33,8 @@
     </form>
    </div>
 
-   <!-- <div class="question_2">
-    <p>Which of these is not an element selector?</p>
+   <div class="question_2">
+    <h3>Which of these is not an element selector?</h3>
     <form>
       <input type="radio" id="ul" name="element_selectors" value="A">
       <label for="a">ul</label><br>
@@ -41,7 +48,7 @@
    </div>
 
    <div class="question_3">
-    <p>Use the CSS _____ property on an element to prevent other elements from floating beside it.</p>
+    <h3>Use the CSS _____ property on an element to prevent other elements from floating beside it.</h3>
     <form>
       <input type="radio" id="Anchor" name="element_floating" value="A">
       <label for="a">Anchor</label><br>
@@ -55,7 +62,7 @@
    </div>
 
    <div class="question_4">
-    <p>_____ property gives you a precise amount of control over which elements you allow to float and when you want to stop floating and resume normal document flow?</p>
+    <h3>_____ property gives you a precise amount of control over which elements you allow to float and when you want to stop floating and resume normal document flow?</h3>
     <form>
       <input type="radio" id="clear" name="float_control" value="A">
       <label for="a">clear</label><br>
@@ -69,7 +76,7 @@
    </div>
 
    <div class="question_5">
-    <p>If we want to wrap a block of text around an image, which css property will we use ?</p>
+    <h3>If we want to wrap a block of text around an image, which css property will we use ?</h3>
     <form>
       <input type="radio" id="wrap" name="text_around_image" value="A">
       <label for="a">wrap</label><br>
@@ -80,7 +87,7 @@
       <input type="radio" id="push" name="text_around_image" value="D">
       <label for="d">push</label><br>
     </form>
-   </div> -->
+   </div>
    <div class="submit">
     <input type="submit" value="Submit" class="btn" onclick="check_answer()">
    </div>

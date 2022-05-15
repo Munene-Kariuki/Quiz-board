@@ -1,5 +1,6 @@
 function check_answer() {
-  var answer = document.getElementById('one');
+  var form_no = document.getElementById()
+  var answer = document.forms[0,4];
   var text = '';
   var i;
 
