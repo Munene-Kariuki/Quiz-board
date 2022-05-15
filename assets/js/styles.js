@@ -25,8 +25,11 @@ function onSubmit () {
   for (var i = 1; i <= noOfQuestions; i++) {
     if (eval( 'q' + i) == answersArray[i - 1]) {
       score++;
-      alert (score)
-    }
-
+    }    
   }
+  calc_percentage(score)
+}
+function calc_percentage (score) {
+  var result = (score/5) * 100;
+  alert (result)
 }
