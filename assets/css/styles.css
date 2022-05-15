@@ -32,3 +32,9 @@ body {
   padding-bottom: 5px;
   background-color: #D3D3D3;
 }
+
+.btn {
+  color: white;
+  background-color: green;
+  padding: 5px;
+}
