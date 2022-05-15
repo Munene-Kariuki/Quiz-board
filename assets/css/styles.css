@@ -29,6 +29,8 @@ body {
   border: 3 3 3 3;
   border-radius: 10px;
   margin-top: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .question_1, .question_2, .question_3, .question_4, .question_5 {
