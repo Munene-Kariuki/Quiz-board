@@ -23,7 +23,6 @@ function calcPercentage (score) {
 
   if (percentage >= 80) {
   result.innerHTML =`<h2>You scored ${percentage}% you passed excellently.</h2>`
-  alert (percentage)
   }
   else if (percentage >= 50 && percentage < 80) {
     result.innerHTML = `<h2>You scored ${percentage}% you passed fairly.</h2>`

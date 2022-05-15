@@ -3,7 +3,7 @@ body {
   padding: 0px;
 }
 .header {
-  background-image: linear-gradient(#ADD8E6, #0000FF, #00008B);
+  background-image: linear-gradient(#c0d3da, #cecedd, #9a9ab4);
   margin-top: 0px;
   text-align: center;
   color: yellow;
@@ -12,6 +12,13 @@ body {
   font-family: 'MedievalSharp';
 }
 
+.header h1{
+  margin: 0px;
+  padding-top: 10px;
+}
+.header #results {
+  padding-bottom: 5px;
+}
 .questions{
   text-align: center;
   border-style: solid;
