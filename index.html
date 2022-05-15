@@ -16,14 +16,14 @@
 <body>
   <div class="header">
     <h1 class="head">QUIZ BOARD</h1>
-    <div class="results">
-      <h2>You scored: Not yet attempted</h2>
+    <div id="results">
+      <h2>You scored: Not yet attempted. ttsahjbxssa</h2>
     </div>
   </div>
 
   <div class="questions">
 
-    <form name="quiz" onsubmit="return onSubmit()">
+    <form name="quiz">
       <div class="question_1">
         <h3>Which HTML element has the correct structure?</h3>
         <input type="radio" id="no_closing_tag" name="q1" value="A">
@@ -86,7 +86,7 @@
       </div>
 
       <div class="submit">
-        <input type="submit" value="Submit" class="btn" onclick="check_answer()">
+        <input type="button" value="Submit" class="btn" onclick="onSubmit()">
       </div>
     </form>
 

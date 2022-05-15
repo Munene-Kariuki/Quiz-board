@@ -1,16 +1,3 @@
-// function check_answer() {
-//   var answer = document.forms[0];
-//   var text = '';
-//   var i;
-
-//   for (i=0; i < answer.length; i++) {
-//     if (answer[i].checked){
-//       text += answer[i].value
-//     }
-//   }
-//   console.log(text)
-// }
-
 function onSubmit () {
   var score = 0;
   var noOfQuestions = 5;
@@ -25,11 +12,24 @@ function onSubmit () {
   for (var i = 1; i <= noOfQuestions; i++) {
     if (eval( 'q' + i) == answersArray[i - 1]) {
       score++;
-    }    
+    }   
   }
-  calc_percentage(score)
+  calcPercentage(score)
 }
-function calc_percentage (score) {
-  var result = (score/5) * 100;
-  alert (result)
+function calcPercentage (score) {
+  var percentage = (score/5) * 100;
+  
+  var result = document.getElementById('results');
+
+  if (percentage >= 80) {
+  result.innerHTML =`<h2>You scored ${percentage}% you passed excellently.</h2>`
+  alert (percentage)
+  }
+  else if (percentage >= 50 && percentage < 80) {
+    result.innerHTML = `<h2>You scored ${percentage}% you passed fairly.</h2>`
+  }
+  else {
+    result.innerHTML = `<h2>You scored ${percentage}% you scored poorly. You need to retake the test</h2>`
+  }
+  
 }
