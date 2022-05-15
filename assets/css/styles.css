@@ -2,6 +2,8 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+/* header section  */
 .header {
   background-image: linear-gradient(#c0d3da, #cecedd, #9a9ab4);
   margin-top: 0px;
@@ -19,6 +21,8 @@ body {
 .header #results {
   padding-bottom: 5px;
 }
+
+/* questions  section*/
 .questions{
   text-align: center;
   border-style: solid;
@@ -40,6 +44,7 @@ body {
   background-color: #D3D3D3;
 }
 
+/* button  */
 .btn {
   color: white;
   background-color: green;

@@ -1,3 +1,4 @@
+// computes the score
 function onSubmit () {
   var score = 0;
   var noOfQuestions = 5;
@@ -16,6 +17,8 @@ function onSubmit () {
   }
   calcPercentage(score)
 }
+
+// calculates percentage user scored
 function calcPercentage (score) {
   var percentage = (score/5) * 100;
   
@@ -31,4 +34,9 @@ function calcPercentage (score) {
     result.innerHTML = `<h2>You scored ${percentage}% you scored poorly. You need to retake the test</h2>`
   }
   
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.documentElement.scrollTop = 0;
 }
