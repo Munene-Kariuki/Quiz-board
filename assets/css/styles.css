@@ -5,25 +5,26 @@ body {
 
 /* header section  */
 .header {
-  background-image: linear-gradient(#c0d3da, #cecedd, #9a9ab4);
+  background-image: linear-gradient(#b8c9ce, #e5e5fa, #c3c3ec);
   margin-top: 0px;
   text-align: center;
-  color: yellow;
+  color: black;
   border-radius: 10px;
   padding: 5 5 5 5;
   font-family: 'MedievalSharp';
 }
 
-.header h1{
+.header h1 {
   margin: 0px;
   padding-top: 10px;
 }
+
 .header #results {
   padding-bottom: 5px;
 }
 
 /* questions  section*/
-.questions{
+.questions {
   text-align: center;
   border-style: solid;
   border: 3 3 3 3;
@@ -31,10 +32,15 @@ body {
   margin-top: 5px;
   margin-bottom: 10px;
   padding-bottom: 10px;
+  background-image: url(../images/pexels-ovan-57690.jpg);
 }
 
-.question_1, .question_2, .question_3, .question_4, .question_5 {
-  text-align: center;
+.question_1,
+.question_2,
+.question_3,
+.question_4,
+.question_5 {
+  text-align: left;
   border-style: solid;
   border: 2;
   border-radius: 10px;
@@ -43,12 +49,19 @@ body {
   margin-left: 15%;
   margin-bottom: 5px;
   padding-bottom: 5px;
+  padding-left: 30px;
   background-color: #D3D3D3;
 }
-
+.ans{
+  border: 1px dashed grey;
+  border-radius: 5px;
+  padding: 5px;
+}
 /* button  */
 .btn {
   color: white;
   background-color: green;
-  padding: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: larger;
 }
