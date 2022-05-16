@@ -52,6 +52,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   background-color: #D3D3D3;
+  opacity: 0.8;
 }
 .ans{
   border: 1px dashed grey;
