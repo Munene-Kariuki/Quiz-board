@@ -67,3 +67,9 @@ body {
   border-radius: 10px;
   font-size: larger;
 }
+
+@media screen and (max-width: 500px) {
+  body{
+    font-size: small;
+  }
+}
